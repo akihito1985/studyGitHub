@@ -20,7 +20,7 @@ public class SampleAction {
 	@Resource
 	@ActionForm
 	protected SampleForm sampleForm;
-
+//
 	// 表示用のpublicプロパティ
 	public String message;
 
