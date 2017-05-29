@@ -31,7 +31,7 @@ public class JspStudyAction {
 		jspStudyForm.searchResult2[0] = "りんご";
 		jspStudyForm.searchResult2[1] = "みかん";
 		jspStudyForm.searchResult2[2] = "ぶどう";
-//
+
 		return "index.jsp";
 	}
 }
