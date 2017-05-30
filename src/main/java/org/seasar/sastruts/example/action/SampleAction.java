@@ -20,9 +20,9 @@ public class SampleAction {
 	@Resource
 	@ActionForm
 	protected SampleForm sampleForm;
-////
 //コミット①
 //コミット②
+//コミット③
 	// 表示用のpublicプロパティ
 	public String message;
 
