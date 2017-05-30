@@ -21,6 +21,7 @@ public class SampleAction {
 	@ActionForm
 	protected SampleForm sampleForm;
 ////
+//コミット①
 	// 表示用のpublicプロパティ
 	public String message;
 
