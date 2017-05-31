@@ -3,6 +3,8 @@
  */
 package org.seasar.sastruts.example.action;
 
+import java.util.Date;
+
 import javax.annotation.Resource;
 
 import org.seasar.sastruts.example.form.JspStudyForm;
@@ -27,11 +29,20 @@ public class JspStudyAction {
 		jspStudyForm.message = "JSP学習";
 
 		// リスト項目設定
-		jspStudyForm.searchResult2 = new String[3];
+		jspStudyForm.searchResult2 = new String[4];
 		jspStudyForm.searchResult2[0] = "りんご";
 		jspStudyForm.searchResult2[1] = "みかん";
 		jspStudyForm.searchResult2[2] = "ぶどう";
-//あああいいい
+		jspStudyForm.searchResult2[3] = "なし";
+
 		return "index.jsp";
+	}
+
+	/** 次の学習へ */
+	@Execute(validator=false)
+	public String next(){
+
+		jspStudyForm.date = new Date();
+		return "study2.jsp";
 	}
 }

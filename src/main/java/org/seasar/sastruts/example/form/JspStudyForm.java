@@ -4,6 +4,7 @@
 package org.seasar.sastruts.example.form;
 
 import java.io.Serializable;
+import java.util.Date;
 
 import org.seasar.framework.container.annotation.tiger.Component;
 import org.seasar.framework.container.annotation.tiger.InstanceType;
@@ -26,4 +27,6 @@ public class JspStudyForm implements Serializable{
 	public String checkBox;
 	public String multiBox[];
 	public String language;	//セレクトボックス
+	public String searchKey;
+	public Date date;
 }

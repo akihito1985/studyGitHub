@@ -38,7 +38,7 @@
 	</c:if><br>
 	◆Strutsのhtmlタグ
 	<s:form method="POST">
-		<s:submit property="login" value="ログイン"/><br>
+		<s:submit property="next" value="次の学習へ"/><br>
 		ユーザ名：<html:text property="name"/><br>
 		パスワード：<html:password property="password"/><br>
 
